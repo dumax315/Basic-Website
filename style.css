@@ -1,0 +1,30 @@
+
+body{
+	margin:0px;
+	background-image:url(https://s3.envato.com/files/83425106/Repeating%20Numerical%20Background%20L.jpg);
+}
+.content {
+	background-color: skyblue;
+	padding:2em;
+	width:700px;
+	margin:auto;
+	height:100%;
+}
+h1 {
+	margin-top: 0px;
+	text-align: center;
+}
+p{
+	font-size: 18px;
+}
+ul {
+	margin:1em;
+  border-left: 5px solid red;
+  background-color: #f1f1f1;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+iframe{
+	margin: auto;
+	display: block;
+}
