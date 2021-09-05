@@ -2,6 +2,7 @@
 body{
 	margin:0px;
 	background-image:url(https://s3.envato.com/files/83425106/Repeating%20Numerical%20Background%20L.jpg);
+	min-height: 100%;
 }
 .content {
 	background-color: skyblue;
@@ -27,4 +28,25 @@ ul {
 iframe{
 	margin: auto;
 	display: block;
+}
+
+
+@media screen and (max-width: 800px) {
+  /* For mobile phones: */
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	body::-webkit-scrollbar {
+		display: none;
+	}
+	/* Hide scrollbar for IE, Edge and Firefox */
+	body {
+		-ms-overflow-style: none;  /* IE and Edge */
+		scrollbar-width: none;  /* Firefox */
+	}
+  .content{
+		width: calc(100% - 3em - 10px);
+		margin: 0px;
+  }
+	iframe{
+		width: 80%;
+	}
 }
